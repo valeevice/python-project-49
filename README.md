@@ -15,3 +15,6 @@ https://asciinema.org/a/532840
 
 ### https://asciinema.org/ --- brain-progression game
 https://asciinema.org/a/532869
+
+### https://asciinema.org/ --- brain-pprime game
+https://asciinema.org/a/532876

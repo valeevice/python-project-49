@@ -3,6 +3,7 @@ from brain_games.games import logic_even
 from brain_games.games import logic_calc
 from brain_games.games import logic_gcd
 from brain_games.games import logic_progression
+from brain_games.games import logic_prime
 
 def task_of_game(name_game):
     if name_game == "brain_even":
@@ -13,6 +14,9 @@ def task_of_game(name_game):
         print ('Find the greatest common divisor of given numbers.')
     if name_game == "brain_progression":
         print ("What number is missing in the progression?")
+    if name_game == "brain_prime":
+        print ('Answer "yes" if given number is prime. Otherwise answer "no".')
+    
         
     
 
@@ -25,6 +29,8 @@ def get_unswer(name_game):
         return(logic_gcd.question_unswer())
     if name_game == "brain_progression":
         return(logic_progression.question_unswer())
+    if name_game == "brain_prime":
+        return(logic_prime.question_unswer())
 
 
 
