@@ -20,7 +20,3 @@ def question_unswer():
     print(f'Question: {random_number1} {operator} {random_number2}')
     correct_unswer = calculate(random_number1, random_number2, operator)
     return correct_unswer
-
-
-if __name__ == '__main__':
-    main()
