@@ -1,6 +1,6 @@
-from brain_games import f_m
 from random import randint
 import math
+
 
 def question_unswer():
     random_number1 = randint(1, 100)

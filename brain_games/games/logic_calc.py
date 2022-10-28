@@ -1,4 +1,3 @@
-from brain_games import f_m
 from random import choice
 from random import randint
 import operator
@@ -7,11 +6,13 @@ get_operator = {
     '+': operator.add,
     '-': operator.sub,
     '*': operator.mul,
-}.get 
+}.get
+
 
 def calculate(x, y, operator):
     op = get_operator(operator)
     return (str(op(x, y)))
+
 
 def question_unswer():
     random_number1 = randint(1, 100)

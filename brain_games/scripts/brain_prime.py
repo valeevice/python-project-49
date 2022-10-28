@@ -5,6 +5,5 @@ def main():
     logic_games.any_game("brain_prime")
 
 
-
 if __name__ == '__main__':
     main()

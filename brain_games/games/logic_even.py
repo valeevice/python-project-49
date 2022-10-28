@@ -1,5 +1,5 @@
-from brain_games import f_m
 from random import randint
+
 
 def question_unswer():
     random_number = randint(1, 1000)
